@@ -3,8 +3,11 @@
 We take MTPL as a fixed, reference value.
 
 To increase the values, we use the following recommended coefficients:
+
 VARIANT_COEF = 1.07
+
 DEDUCTIBLE_COEF = 1.11
+
 PRODUCT_LEVEL_COEF = 1.20 (assuming this should be the highest coefficient)
 
 In cases where MTPL is not available or zero as a reference value, we use MIN_VAL for prices that are zero or negative, because it makes no sense to multiply zero by a coefficient.
